@@ -1,0 +1,20 @@
+[package]
+authors = ["51LV3R.exe"]
+description = "A simple noise generator for Rust"
+edition = "2021"
+keywords = ["noise", "noise-generator", "rng"]
+license = "GPL-2.0-or-later"
+name = "noise_generator"
+readme = "README.md"
+repository = "https://github.com/srsilverexe/noise_generator"
+version = "0.1.0"
+publish = ["noise_generator"]
+
+[lib]
+name = "noise_generator"
+path = "src/lib.rs"
+crate-type = ["lib"]
+
+[dependencies]
+rand = "0.8.5"
+rand_chacha = "0.3.1"
