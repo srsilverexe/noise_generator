@@ -8,7 +8,6 @@ name = "noise_generator"
 readme = "README.md"
 repository = "https://github.com/srsilverexe/noise_generator"
 version = "0.1.1"
-publish = ["noise_generator"]
 
 [lib]
 name = "noise_generator"
