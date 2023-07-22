@@ -3,9 +3,9 @@ use rand_chacha::ChaCha8Rng;
 use rand::{self, Rng, SeedableRng};
 
 pub struct Noise {
-    values: Vec<f64>,
-    len: u32,
-    seed: <ChaCha8Rng as SeedableRng>::Seed,
+    pub values: Vec<f64>,
+    pub len: u32,
+    pub seed: <ChaCha8Rng as SeedableRng>::Seed,
 }
 
 impl Noise {
